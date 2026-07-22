@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Patent-to-Paper Citations — Reliance on Science</title>
+<meta name="description" content="Open datasets connecting patents to the scientific literature.">
+<link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><div class="nav"><a class="brand" href="/">Reliance on Science</a><a href="/">Home</a><a href="/patent-to-paper-citations/" class="on">Patent-to-Paper Citations</a><a href="/patent-paper-pairs/">Patent-Paper Pairs</a><a href="/startup-patenting/">Startup Patenting</a><a href="/about-us/">About us</a></div></header>
+<main>
+<h1>Patent-to-Paper Citations</h1>
+<p>Front-page and in-text citations from patents to scientific articles published since
+1800. Each citation carries an applicant/examiner flag, a confidence score (1&ndash;10),
+and where it was found (front page only, body text only, or both). We link to papers
+captured by <a href="https://openalex.org">OpenAlex</a>.</p>
+<p>
+<a class="btn" href="https://zenodo.org/records/11461587/files/_pcs_oa.csv?download=1">Download data</a>
+<a class="btn alt" href="https://zenodo.org/records/11300543/files/__relianceonscience2024.pdf?download=1">Documentation (PDF)</a>
+</p>
+<!-- TODO(2026-07): swap download link to the new pcs_oa_uspto.csv Zenodo record when minted -->
+<img class="fig" src="/assets/citations_by_grant_year.png"
+ alt="Bar chart of patent-paper citation pairs by patent grant year, 2015-2025, split into total, front-page-only, and in-text-only counts">
+<h2>Citing the data</h2>
+<p>If you use these data, please cite both:</p>
+<div class="cite">Marx, M. &amp; A. Fuegi (2020). Reliance on Science: Worldwide Front-Page Patent
+Citations to Scientific Articles. <i>Strategic Management Journal</i> 41(9): 1572&ndash;1594.
+<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3145">doi:10.1002/smj.3145</a></div>
+<div class="cite">Marx, M. &amp; A. Fuegi (2022). Reliance on Science by Inventors: Hybrid Extraction of
+In-text Patent-to-Article Citations. <i>Journal of Economics &amp; Management Strategy</i>.
+<a href="http://doi.org/10.1111/jems.12455">doi:10.1111/jems.12455</a></div>
+<h2>Code</h2>
+<p>The complete matching pipeline is open source:
+<a href="https://github.com/relianceonscience/ros">github.com/relianceonscience/ros</a> (MIT).</p>
+</main>
+<footer><div class="inner">Datasets licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> ·
+Code on <a href="https://github.com/relianceonscience">GitHub</a> (MIT) ·
+Supported by the <a href="https://sloan.org">Alfred P. Sloan Foundation</a></div></footer>
+</body></html>
