@@ -3,30 +3,60 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Home — Reliance on Science</title>
 <meta name="description" content="Open datasets connecting patents to the scientific literature.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css"></head>
 <body>
-<header><div class="nav"><a class="brand" href="/">Reliance on Science</a><a href="/" class="on">Home</a><a href="/patent-to-paper-citations/">Patent-to-Paper Citations</a><a href="/patent-paper-pairs/">Patent-Paper Pairs</a><a href="/startup-patenting/">Startup Patenting</a><a href="/about-us/">About us</a></div></header>
+<header><div class="nav"><a class="brand" href="/">reliance on science</a><a href="/" class="on">Home</a><a href="/patent-to-paper-citations/">Patent-to-Paper Citations</a><a href="/patent-paper-pairs/">Patent-Paper Pairs</a><a href="/startup-patenting/">Startup Patenting</a><a href="/about-us/">About us</a></div></header>
 <main>
-<h1>Open data on innovation, patenting,<br>commercialization &amp; entrepreneurship</h1>
-<p>Reliance on Science provides open source datasets to spur new research regarding
-innovation and entrepreneurship related to scientific discoveries. All resources are
-licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
-Attribution Non-Commercial 4.0 International</a>, and would not exist without the generous
-support of the <a href="https://sloan.org">Alfred P. Sloan Foundation</a>.</p>
-<div class="cards">
-<div class="card"><h3><a href="/patent-to-paper-citations/">Patent-to-Paper Citations</a></h3>
-<p>Front-page and in-text citations from patents to scientific articles published since 1800.
-The flagship dataset — considerable computational effort went into its compilation.</p></div>
-<div class="card"><h3><a href="/patent-paper-pairs/">Patent-Paper Pairs</a></h3>
-<p>Instances where patents directly correspond to published research, identified via
-self-plagiarism detection methodology across industries.</p></div>
-<div class="card"><h3><a href="/startup-patenting/">Startup Patenting</a></h3>
-<p>Patent assignees linked to founding years and venture-capital indicators — covering far
-more of the assignee landscape than public-company matches alone.</p></div>
-<div class="card"><h3><a href="https://zenodo.org/records/11374125">Pasteur's Quadrant Researchers</a></h3>
-<p>Boundary-spanning scientists (1976&ndash;2023) who both publish and patent.</p></div>
+<div class="hero bebas">
+  <div class="row1"><span class="giant">Reliance</span>
+    <span class="sponsor">sponsored by<br>the Alfred P. Sloan Foundation</span></div>
+  <div class="row2"><span class="on">ON</span>
+    <span class="words"><span class="w1">Innovation</span><span class="w2">Patenting</span>
+    <span class="w3">COMMERCIALIZATION</span><span class="w4">entrepreneurship</span></span></div>
+  <div class="row1"><span class="giant">Science</span></div>
+  <p class="intro" style="font-family:'Open Sans',sans-serif;letter-spacing:0">Reliance on Science is a project that
+  provides open source datasets to spur new research regarding innovation and entrepreneurship
+  related to scientific discoveries. All data are provided under a
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution
+  Non-Commercial 4.0 International License</a>.</p>
+  <p class="scroll bebas">Scroll down to see the most recent projects ▾</p>
 </div>
-<p class="muted">Looking for the original 2019&ndash;2022 site? See the
+
+<section class="project"><div class="ptext">
+  <h2 class="bebas">Patent-to-Paper <em>Citations</em></h2>
+  <p>Front-page and in-text citations from worldwide patents to scientific articles published
+  since 1800. We burned 2 million CPU-hours so you don't have to.</p>
+  <a class="btn bebas" href="/patent-to-paper-citations/">get the data &gt;</a></div>
+  <img src="/assets/citations_by_grant_year.png" alt="Patent-paper citation pairs by grant year, 2015-2025" loading="lazy">
+</section>
+
+<section class="project"><div class="ptext">
+  <h2 class="bebas">Patent-Paper <em>Pairs</em></h2>
+  <p>Patents often cite papers, but sometimes the patent <i>is</i> the paper. Dozens of scholars
+  have used patent-paper pairs, but there is not yet an open, large-scale dataset. We built a
+  self-plagiarism detector to find pairs across all industries.</p>
+  <a class="btn bebas" href="/patent-paper-pairs/">get the data &gt;</a></div>
+  <img src="/assets/jems12455-fig-0001-m-AQE4DLZLV7HLKV2W.jpg" alt="Patent-paper pairs figure" loading="lazy">
+</section>
+
+<section class="project"><div class="ptext">
+  <h2 class="bebas">Startup <em>Patenting</em></h2>
+  <p>Conventional wisdom holds that new ventures drive innovation. This is hard to verify because
+  the patent data don't indicate which assignees are startups. Prior work has linked assignees to
+  Compustat; we try to link the remaining 95% of assignees to OpenCorporates.</p>
+  <a class="btn bebas" href="/startup-patenting/">get the data &gt;</a></div>
+  <img src="/assets/young_firm-A3QPOLza42hyVDq6.png" alt="Young-firm patenting trends" loading="lazy">
+</section>
+
+<section class="project"><div class="ptext">
+  <h2 class="bebas">Pasteur's Quadrant <em>Researchers</em></h2>
+  <p>Boundary-spanning scientists (1976&ndash;2023) who both publish and patent.</p>
+  <a class="btn bebas" href="https://zenodo.org/records/11374125">get the data &gt;</a></div>
+  <img src="/assets/patent_quality-Yle6qa12LXTEVkxe.png" alt="Patent quality metrics" loading="lazy">
+</section>
+
+<p style="margin-top:36px;color:var(--ink2)">Looking for the original 2019&ndash;2022 site? See the
 <a href="/old-reliance-on-science-site/">archived reliance-on-science data</a>.</p>
 </main>
 <footer><div class="inner">Datasets licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> ·
